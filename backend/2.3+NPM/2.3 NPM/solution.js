@@ -6,7 +6,11 @@ var sillyName = generateName();
 console.log(`My name is ${sillyName}.`);
 
 // const superheroes = require("superheroes");
-import superheroes from "superheroes";
+import { randomSuperhero } from "superheroes";
+const name = randomSuperhero();
 
-const name = superheroes.random();
 console.log(`I am ${name}!`);
+
+
+import { randomSuperhero } from "superheroes";
+const name = randomSuperhero();
